@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication flow, profile setup, and renders the dashboard with theme provider and toast notifications.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including user registration, profile management, payment history, Stripe checkout, and admin configuration.",
+  "frontend/src/components/Header.tsx": "Application header with logo, app name, theme toggle, and logout button.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice and caffeine.ai attribution link.",
+  "frontend/src/pages/LoginPage.tsx": "Landing page with hero section, login functionality, and feature highlights for unauthenticated users.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for new user registration with Aadhaar number, email, and name input with validation.",
+  "frontend/src/pages/Dashboard.tsx": "Main dashboard page with tabs for payment creation and transaction history, displaying user account information.",
+  "frontend/src/components/PaymentSection.tsx": "Payment form component for creating Stripe checkout sessions with amount, currency, and description inputs.",
+  "frontend/src/components/PaymentHistorySection.tsx": "Table view of user's payment history with formatted dates, amounts, status badges, and transaction details.",
+  "frontend/src/components/StripeSetupModal.tsx": "Admin-only modal for configuring Stripe payment integration with secret key and allowed countries.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring a purple/blue primary color palette optimized for both light and dark modes."
+}
